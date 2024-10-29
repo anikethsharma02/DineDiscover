@@ -1,0 +1,38 @@
+.App {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffffff, #f7f7f7);
+  color: #333;
+  min-height: 100vh; /* Changed from height to min-height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center content vertically */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  width: 100%; /* Ensure it takes full width */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f7f7f7, #fff);
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px; /* Limit the max width of the container */
+  padding: 20px; /* Optional: Add padding to the container */
+  box-sizing: border-box; /* Include padding in width */
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+  padding: 20px; /* Optional: Add padding to the form */
+  background-color: #fff; /* Background color for the form */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  border-radius: 10px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding in width */
+}

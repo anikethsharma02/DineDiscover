@@ -1,0 +1,183 @@
+/* Main Homepage Container */
+.homepage-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Location Dropdown */
+.location-dropdown {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.location-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.location-select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Image Gallery Section */
+.gallery-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.gallery-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.image-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+}
+
+.image-item:hover .gallery-image {
+  transform: scale(1.05);
+}
+
+/* Welcome Section */
+.welcome-message {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.welcome-header {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.welcome-subheader {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.explore-now {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #ff5733;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.explore-now:hover {
+  background-color: #e64522;
+}
+
+/* Best Offers Section */
+.best-offers {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.offers-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.offer-card {
+  width: 20%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.offer-card .discount-label {
+  background-color: #4333A1; /* Purple for the label */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.offer-card .discount-percentage {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.offer-card .discount-text {
+  font-size: 16px;
+}
+
+/* Custom colors for different discount cards */
+.offer-card.offer-25 .discount-label {
+  background-color: #4333A1; /* Purple */
+}
+
+.offer-card.offer-30 .discount-label {
+  background-color: #E34D47; /* Red */
+}
+
+.offer-card.offer-20 .discount-label {
+  background-color: #47B15E; /* Green */
+}
+
+.offer-card.offer-15 .discount-label {
+  background-color: #705BA0; /* Light Purple */
+}
+
+
+/* Footer Section */
+.footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ff5733;
+}
+
+.footer-column p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #333;
+}
+
+.user-welcome h3{
+  text-align: left;
+}
